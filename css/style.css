@@ -1,0 +1,62 @@
+/* Change Brand Font */
+.navbar-brand{
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+/* Change Navigation Color */
+.navbar #myMenu .custom-nav .nav-item a {
+  color: #fff;
+}
+.navbar #myMenu .custom-nav .nav-item a:hover{
+  color: rgb(248, 173, 34);
+}
+
+.interest {
+  background: linear-gradient(to right, rgb(160, 159, 159), rgb(43, 42, 42));
+}
+
+.carousel-caption{
+  position: fixed;
+  background-size: cover;
+  top: 30%;
+  font-size: 10vh;
+  font-family: cursive;
+}
+
+.card-body {
+  background-color: rgb(177, 174, 177);
+  color: rgb(255, 250, 250);
+  text-decoration: white;
+  text-shadow: white 3px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.carousel-inner img {
+  background-size: cover;
+  opacity: 0.86;
+}
+
+/* Change Footer Social Icon Color */
+a {
+  color:  rgb(17, 212, 238);
+}
+a:hover {
+  color: #E994A2;
+}
+
+@media screen and (max-width: 560px) {
+  .carousel-item img {
+    height: 90vh;
+  }
+  .card {
+    margin-left: -31px;
+    width: 100vw;
+  }
+}
+
+.me {
+  height: 400px;
+  border: 2px solid rgb(160, 155, 155);
+}
